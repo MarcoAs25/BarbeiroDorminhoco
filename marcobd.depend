@@ -1,0 +1,46 @@
+# depslib dependency file v1.0
+1648313563 source:/home/marco/Documentos/marc/marcobd/main.cpp
+	<iostream>
+	<barbearia.h>
+
+1647297883 /home/marco/Documentos/marc/marcobd/include/semaforo.h
+
+1648314301 source:/home/marco/Documentos/marc/marcobd/src/barbearia.cpp
+	"barbearia.h"
+
+1648315860 /home/marco/Documentos/marc/marcobd/include/barbearia.h
+	<thread>
+	<vector>
+	<cstdlib>
+	<ctime>
+	<semaphoresOO.h>
+	<cliente.h>
+	<barbeiro.h>
+	<csignal>
+	<sys/types.h>
+
+1648315869 /home/marco/Documentos/marc/marcobd/include/semaphoresOO.h
+	<semaphore.h>
+	<fcntl.h>
+	<iostream>
+
+1648312042 /home/marco/Documentos/marc/marcobd/include/cliente.h
+	<semaphoresOO.h>
+	<unistd.h>
+	<ctime>
+
+1647299294 /home/marco/Documentos/marc/marcobd/include/barbeiro.h
+	<iostream>
+	<semaphoresOO.h>
+	<unistd.h>
+	<ctime>
+
+1648315813 source:/home/marco/Documentos/marc/marcobd/src/barbeiro.cpp
+	"barbeiro.h"
+
+1648315436 source:/home/marco/Documentos/marc/marcobd/src/cliente.cpp
+	"cliente.h"
+
+1648315714 source:/home/marco/Documentos/marc/marcobd/src/semaphoresOO.cpp
+	"semaphoresOO.h"
+
